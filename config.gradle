@@ -1,0 +1,19 @@
+ext {
+    android = [
+            compileSdkVersion: 30,
+            buildToolsVersion: "30.0.2",
+            minSdkVersion    : 21,
+            targetSdkVersion : 29,
+            versionCode      : 1000,
+            versionName      : "1.0.0"
+    ]
+
+    version = [
+            coreVersion : "1.8.0",
+            materialVersion:'1.4.0',
+            retrofitSdkVersion: "2.9.0",
+            glideSdkVersion   : "4.12.0",
+            kotlin_version    : "1.6.21",
+            okhttp3Version    : "4.9.0"
+    ]
+}
